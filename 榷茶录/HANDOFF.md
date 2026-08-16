@@ -127,7 +127,7 @@ D:\小说\                      ← git 仓库根
 │  │  ├─ architecture-audit.md ← 架构审计，每 12–20 章一次的强制闸门
 │  │  └─ volumes\volume-01-outline.md
 │  ├─ chapters\volume-01\     ← 章节规划稿 002-024
-│  ├─ drafts\volume-01\       ← 正文 001-020
+│  ├─ drafts\volume-01\       ← 正文 001-024（卷一完）
 │  ├─ research\茶法与账簿机制.md  ← 诡计弹药库：验引流程、做假十法
 │  ├─ continuity\
 │  │  ├─ continuity-log.md    ← 正典、用户决议、逐章审计记录
