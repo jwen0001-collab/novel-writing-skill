@@ -6,6 +6,7 @@
 扫描口径出自 style-guides/project-voice.md 与 HANDOFF.md 第五节。
 """
 import io
+import os
 import re
 import sys
 
@@ -54,8 +55,13 @@ def main(path):
     print("  含标点 %d  区间 %d-%d  %s   [参考] 汉字 %d（旧口径 %d-%d）"
           % (full, FULL_LO, FULL_HI, status, han, HAN_LO, HAN_HI))
 
+    base = os.path.basename(path)
     for name, pat, limit, note in RULES:
         hits = re.findall(pat, body)
+        # 第12章那一处朱红是 2026-08-16 裁定的保留色第四种例外（她本人以父亲手法所下的私批），
+        # 全书封顶三次，卷一额度已用完。按文件名放行这一处，避免长期假失败掩盖真失败。
+        if name == "保留色" and base == "chapter-012.md" and hits == ["朱红"]:
+            hits = []
         if len(hits) > limit:
             fail += 1
             print("  [失败] %s %d 处 %s -- %s" % (name, len(hits), sorted(set(hits)), note))
