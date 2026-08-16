@@ -14,7 +14,7 @@
 | 规划 | 卷一 24 章卷纲齐；**第 2–24 章章节纲全齐** |
 | 文风 | 已过试写关卡并经多轮修订。守则**分两份，都要读**：`style-guides/project-voice.md`（这一句怎么写）＋ `style-guides/叙事节奏-爽点兑现.md`（这一章怎么搭）。**两份冲突以节奏细则为准** |
 | 架构 | `planning/architecture-audit.md` 第 1—17 章审计已过，放行条件全部解除。**下一次强制审计：第 24 章完稿后，或卷二开写前** |
-| 台账 | `continuity/timeline.md`（至五月十二）与 `foreshadowing-ledger.md`（F01–F09 ＋ C01–C07）**已补齐，不再是空的** |
+| 台账 | `continuity/timeline.md`（至五月十四）与 `foreshadowing-ledger.md`（F01–F09 ＋ C01–C08）**已补齐，不再是空的** |
 | 仓库 | 本地 `D:\小说`（多项目：`榷茶录/`、`七日留痕/`），远端 `jwen0001-collab/novel`。**本地已提交，尚未 push** |
 
 正文在 `drafts/volume-01/chapter-0XX.md`，章节规划稿在 `chapters/volume-01/chapter-0XX.md`。**两者不要混**。
@@ -112,7 +112,7 @@ D:\小说\                      ← git 仓库根
 │  │  ├─ project-bible.md     ← 五卷结构、父案五层真相、核心人物
 │  │  ├─ core-premise.md      ← 类型契约、冲突引擎
 │  │  ├─ world-rules.md       ← 四方势力利益机制、地理、刑罚
-│  │  └─ 空间设定.md          ← 建筑可画性、镜像锚点（未写完）
+│  │  └─ 空间设定.md          ← 建筑可画性、镜像锚点、地理阶梯表（已补完）
 │  ├─ style-guides\
 │  │  ├─ project-voice.md     ← 文风守则「这一句怎么写」，动笔前必读
 │  │  └─ 叙事节奏-爽点兑现.md ← 结构细则「这一章怎么搭」，与上一份并列，冲突时以此为准
@@ -126,8 +126,8 @@ D:\小说\                      ← git 仓库根
 │  ├─ research\茶法与账簿机制.md  ← 诡计弹药库：验引流程、做假十法
 │  ├─ continuity\
 │  │  ├─ continuity-log.md    ← 正典、用户决议、逐章审计记录
-│  │  ├─ timeline.md          ← 已补至五月十二
-│  │  └─ foreshadowing-ledger.md ← 已补，F01–F09 ＋ C01–C07
+│  │  ├─ timeline.md          ← 已补至五月十四
+│  │  └─ foreshadowing-ledger.md ← 已补，F01–F09 ＋ C01–C08
 │  └─ 试写\                   ← 非正稿，文风样本，只存档
 └─ 七日留痕\                  ← 另一部作品，10 章短篇，已完稿
 ```
